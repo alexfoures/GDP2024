@@ -41,10 +41,10 @@ namespace GDP2024
         {
             switch (message)
             {
-                case "0": m_LightbulbEmojiParticleSystem?.Emit(1); break;
-                case "1": m_HeartEmojiParticleSystem?.Emit(1); break;
-                case "2": m_GhostEmojiParticleSystem?.Emit(1); break;
-                case "3": m_WindowEmojiParticleSystem?.Emit(1); break;
+                case "emoji-0": m_LightbulbEmojiParticleSystem?.Emit(1); break;
+                case "emoji-1": m_HeartEmojiParticleSystem?.Emit(1); break;
+                case "emoji-2": m_GhostEmojiParticleSystem?.Emit(1); break;
+                case "emoji-3": m_WindowEmojiParticleSystem?.Emit(1); break;
             }
         }
     }
