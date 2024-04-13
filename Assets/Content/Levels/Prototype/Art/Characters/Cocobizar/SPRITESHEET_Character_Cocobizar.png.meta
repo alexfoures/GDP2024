@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: d6e75897131ebcc4a815d3381d4de68f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7842563137826360622
+    second: SPRITESHEET_Character_Cocobizar_0
+  - first:
+      213: 8534130969109699458
+    second: SPRITESHEET_Character_Cocobizar_1
+  - first:
+      213: 754067315286001759
+    second: SPRITESHEET_Character_Cocobizar_2
+  - first:
+      213: -7454042425725268195
+    second: SPRITESHEET_Character_Cocobizar_3
+  - first:
+      213: -7067720186719575811
+    second: SPRITESHEET_Character_Cocobizar_4
+  - first:
+      213: -1802682017523952130
+    second: SPRITESHEET_Character_Cocobizar_5
+  - first:
+      213: 5422599179954213099
+    second: SPRITESHEET_Character_Cocobizar_6
+  - first:
+      213: -2627564250452194651
+    second: SPRITESHEET_Character_Cocobizar_7
+  - first:
+      213: -8899912947347038925
+    second: SPRITESHEET_Character_Cocobizar_8
+  - first:
+      213: -5454400924409923264
+    second: SPRITESHEET_Character_Cocobizar_9
+  - first:
+      213: 5476936187231866775
+    second: SPRITESHEET_Character_Cocobizar_10
+  - first:
+      213: 246738497222102937
+    second: SPRITESHEET_Character_Cocobizar_11
+  - first:
+      213: -3704290271293378537
+    second: SPRITESHEET_Character_Cocobizar_12
+  - first:
+      213: -4588758548667815183
+    second: SPRITESHEET_Character_Cocobizar_13
+  - first:
+      213: -5886698848369791543
+    second: SPRITESHEET_Character_Cocobizar_14
+  - first:
+      213: -3728771425390760739
+    second: SPRITESHEET_Character_Cocobizar_15
+  - first:
+      213: -8054897802299885965
+    second: SPRITESHEET_Character_Cocobizar_16
+  - first:
+      213: 4904579171279790785
+    second: SPRITESHEET_Character_Cocobizar_17
+  - first:
+      213: -475240035325833227
+    second: SPRITESHEET_Character_Cocobizar_18
+  - first:
+      213: 3207912296170163514
+    second: SPRITESHEET_Character_Cocobizar_19
+  - first:
+      213: -5841977287777954384
+    second: SPRITESHEET_Character_Cocobizar_20
+  - first:
+      213: 5777769638801116767
+    second: SPRITESHEET_Character_Cocobizar_21
+  - first:
+      213: 2535685076567133427
+    second: SPRITESHEET_Character_Cocobizar_22
+  - first:
+      213: -8614489939391126194
+    second: SPRITESHEET_Character_Cocobizar_23
+  - first:
+      213: 8074262960775735258
+    second: SPRITESHEET_Character_Cocobizar_24
+  - first:
+      213: 5744066126135060551
+    second: SPRITESHEET_Character_Cocobizar_25
+  - first:
+      213: 6034017215136129103
+    second: SPRITESHEET_Character_Cocobizar_26
+  - first:
+      213: -5491302321374746054
+    second: SPRITESHEET_Character_Cocobizar_27
+  - first:
+      213: -6265434401491989667
+    second: SPRITESHEET_Character_Cocobizar_28
+  - first:
+      213: 277809047737601671
+    second: SPRITESHEET_Character_Cocobizar_29
+  - first:
+      213: 6092916920813787622
+    second: SPRITESHEET_Character_Cocobizar_30
+  - first:
+      213: 391804430252225135
+    second: SPRITESHEET_Character_Cocobizar_31
+  - first:
+      213: -4951859497946138785
+    second: SPRITESHEET_Character_Cocobizar_32
+  - first:
+      213: 535047580686708485
+    second: SPRITESHEET_Character_Cocobizar_33
+  - first:
+      213: 6643439303625811739
+    second: SPRITESHEET_Character_Cocobizar_34
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d86b64f9166dc60800000000000000
+      internalID: 7842563137826360622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 109
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b917096e25f6670800000000000000
+      internalID: 8534130969109699458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58ca506a3cf67a00800000000000000
+      internalID: 754067315286001759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 89
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f44f138ebed8890800000000000000
+      internalID: -7454042425725268195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 89
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0e8b2cfe96aed90800000000000000
+      internalID: -7067720186719575811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5108e81469bf6e0800000000000000
+      internalID: -1802682017523952130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0de785931f04b40800000000000000
+      internalID: 5422599179954213099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa08435c34098bd0800000000000000
+      internalID: -2627564250452194651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET_Character_Cocobizar_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 49
+        width: 39
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dda7104582d7480800000000000000
+      internalID: -8899912947347038925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPRITESHEET_Character_Cocobizar_2: 754067315286001759
+      SPRITESHEET_Character_Cocobizar_7: -2627564250452194651
+      SPRITESHEET_Character_Cocobizar_3: -7454042425725268195
+      SPRITESHEET_Character_Cocobizar_4: -7067720186719575811
+      SPRITESHEET_Character_Cocobizar_1: 8534130969109699458
+      SPRITESHEET_Character_Cocobizar_6: 5422599179954213099
+      SPRITESHEET_Character_Cocobizar_5: -1802682017523952130
+      SPRITESHEET_Character_Cocobizar_8: -8899912947347038925
+      SPRITESHEET_Character_Cocobizar_0: 7842563137826360622
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
