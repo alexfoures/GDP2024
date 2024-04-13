@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d1a91023ea2974d44a3e155d7de3bae2
+guid: 659fdc5e212b04442a51889f4e2fede9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1681420316245604000
-    second: Sans titre_0
+      213: 191241543689367488
+    second: chat 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sans titre_0
+      name: chat 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1451
-        height: 730
+        width: 280
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a6b1fb7eda955710800000000000000
-      internalID: 1681420316245604000
+      spriteID: 0cfe6e5bb2d67a200800000000000000
+      internalID: 191241543689367488
       vertices: []
       indices: 
       edges: []

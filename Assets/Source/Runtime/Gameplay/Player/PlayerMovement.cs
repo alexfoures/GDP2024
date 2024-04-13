@@ -251,6 +251,7 @@ namespace Coco
             bool jumpInputStrict = _input.WasJumpPressedThisFrame.Value;
             bool jumpInputTolerant = _input.WasJumpPressedThisFrame.GetValueWithTolerance(JumpEarlyTolerance);
             bool doubleJumpActivate = _powerManagement.IsDoubleJump;
+            bool wallJumpActivate = _powerManagement.IsWallJump;
 
             bool isAgainstWall = _collisionState.IsAgainstWall.Value;
 
@@ -285,7 +286,7 @@ namespace Coco
             }
 
             // Wall Jump
-            if (CanWallJump)
+            if (CanWallJump && wallJumpActivate)
             {
                 if (isAgainstWall && jumpInputStrict && !isGroundedStrict && compteur != 2)
                 {
