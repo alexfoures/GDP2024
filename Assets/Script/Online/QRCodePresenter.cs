@@ -24,6 +24,7 @@ namespace GDP2024
         {
             m_InteractionService.OnMessage += OnMessage;
             m_EnterInputRef.action.performed += ChangeScene;
+
         }
 
         private void ChangeScene(InputAction.CallbackContext context)
@@ -46,6 +47,7 @@ namespace GDP2024
                 case "2": m_GhostEmojiParticleSystem?.Emit(1); break;
                 case "3": m_WindowEmojiParticleSystem?.Emit(1); break;
             }
+            
         }
     }
 }
