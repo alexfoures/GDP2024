@@ -1,0 +1,1698 @@
+fileFormatVersion: 2
+guid: 19ff59e2e8cdf5b4abbd9ee5bf37523b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7793885339752791817
+    second: TEX_Player_SpriteSheet_Idle_0
+  - first:
+      213: -845495546450247216
+    second: TEX_Player_SpriteSheet_Idle_1
+  - first:
+      213: -8003089314565782522
+    second: TEX_Player_SpriteSheet_Idle_2
+  - first:
+      213: -2466160671577546782
+    second: TEX_Player_SpriteSheet_Idle_3
+  - first:
+      213: -2218078648586001156
+    second: TEX_Player_SpriteSheet_IdleSword_0
+  - first:
+      213: -5870642005326768727
+    second: TEX_Player_SpriteSheet_IdleSword_1
+  - first:
+      213: 2395669481667842522
+    second: TEX_Player_SpriteSheet_IdleSword_2
+  - first:
+      213: 6473744351306834130
+    second: TEX_Player_SpriteSheet_IdleSword_3
+  - first:
+      213: -3210763195153353448
+    second: TEX_Player_SpriteSheet_Run_0
+  - first:
+      213: 4355689724740931884
+    second: TEX_Player_SpriteSheet_Run_1
+  - first:
+      213: 743443627963901782
+    second: TEX_Player_SpriteSheet_Run_2
+  - first:
+      213: 2584256394567812546
+    second: TEX_Player_SpriteSheet_Run_3
+  - first:
+      213: 1925470921506588993
+    second: TEX_Player_SpriteSheet_Run_4
+  - first:
+      213: 6864789706350418951
+    second: TEX_Player_SpriteSheet_Run_5
+  - first:
+      213: -6749319001638677442
+    second: TEX_Player_GroundAttack_1_0
+  - first:
+      213: -3098225436859297100
+    second: TEX_Player_GroundAttack_1_1
+  - first:
+      213: 1284270410755302764
+    second: TEX_Player_GroundAttack_1_2
+  - first:
+      213: -4875058738983680168
+    second: TEX_Player_GroundAttack_1_3
+  - first:
+      213: -3682848493393907945
+    second: TEX_Player_GroundAttack_1_4
+  - first:
+      213: -5531190014742865171
+    second: TEX_Player_GroundAttack_2_0
+  - first:
+      213: -7593869053931879682
+    second: TEX_Player_GroundAttack_2_1
+  - first:
+      213: -8035745280482429826
+    second: TEX_Player_GroundAttack_2_2
+  - first:
+      213: 7838585793031843261
+    second: TEX_Player_GroundAttack_2_3
+  - first:
+      213: -3915295685279186625
+    second: TEX_Player_GroundAttack_2_4
+  - first:
+      213: 904046197844416386
+    second: TEX_Player_GroundAttack_2_5
+  - first:
+      213: -3620897404263722156
+    second: TEX_Player_SpriteSheet_25
+  - first:
+      213: -2473165125153378405
+    second: TEX_Player_SpriteSheet_26
+  - first:
+      213: -4854528550962088058
+    second: TEX_Player_SpriteSheet_27
+  - first:
+      213: -6334969138283952125
+    second: TEX_Player_SpriteSheet_28
+  - first:
+      213: 1078941679326846080
+    second: TEX_Player_SpriteSheet_29
+  - first:
+      213: 5560373247653400005
+    second: TEX_Player_SpriteSheet_30
+  - first:
+      213: 683876058427266710
+    second: TEX_Player_SpriteSheet_31
+  - first:
+      213: -3935190763503750437
+    second: TEX_Player_SpriteSheet_32
+  - first:
+      213: 286223123642170790
+    second: TEX_Player_SpriteSheet_33
+  - first:
+      213: -399696484691279686
+    second: TEX_Player_SpriteSheet_34
+  - first:
+      213: 1779862713630042611
+    second: TEX_Player_SpriteSheet_35
+  - first:
+      213: -7391592279546064891
+    second: TEX_Player_SpriteSheet_36
+  - first:
+      213: -3770567083764482934
+    second: TEX_Player_SpriteSheet_37
+  - first:
+      213: -1060024977014118291
+    second: TEX_Player_SpriteSheet_38
+  - first:
+      213: -5133489762138658072
+    second: TEX_Player_SpriteSheet_39
+  - first:
+      213: 4052821356774901778
+    second: TEX_Player_SpriteSheet_40
+  - first:
+      213: 3112028380325054562
+    second: TEX_Player_SpriteSheet_41
+  - first:
+      213: 3384177006315065650
+    second: TEX_Player_SpriteSheet_42
+  - first:
+      213: 8171415993168971034
+    second: TEX_Player_SpriteSheet_43
+  - first:
+      213: 4729087577039968610
+    second: TEX_Player_SpriteSheet_44
+  - first:
+      213: 5076004976224841981
+    second: TEX_Player_SpriteSheet_45
+  - first:
+      213: 7030386668859524709
+    second: TEX_Player_SpriteSheet_46
+  - first:
+      213: 7828749830898814447
+    second: TEX_Player_SpriteSheet_47
+  - first:
+      213: 8592705614456900921
+    second: TEX_Player_SpriteSheet_48
+  - first:
+      213: 5222045367930134774
+    second: TEX_Player_SpriteSheet_49
+  - first:
+      213: -6975159399353478706
+    second: TEX_Player_SpriteSheet_50
+  - first:
+      213: -1816544607531550392
+    second: TEX_Player_SpriteSheet_51
+  - first:
+      213: 5456765069953029161
+    second: TEX_Player_SpriteSheet_52
+  - first:
+      213: 4540831791016906678
+    second: TEX_Player_SpriteSheet_53
+  - first:
+      213: -2098621477476434453
+    second: TEX_Player_SpriteSheet_54
+  - first:
+      213: -6117977246676862388
+    second: TEX_Player_SpriteSheet_55
+  - first:
+      213: 4873444704830533215
+    second: TEX_Player_SpriteSheet_56
+  - first:
+      213: 5909690091433573157
+    second: TEX_Player_SpriteSheet_57
+  - first:
+      213: -4332547351792831057
+    second: TEX_Player_SpriteSheet_58
+  - first:
+      213: -1216995511293463061
+    second: TEX_Player_SpriteSheet_59
+  - first:
+      213: -5328591049640396961
+    second: TEX_Player_SpriteSheet_60
+  - first:
+      213: -7033623084673672889
+    second: TEX_Player_SpriteSheet_61
+  - first:
+      213: -3953107916977260399
+    second: TEX_Player_SpriteSheet_62
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f009e7c39e86d390800000000000000
+      internalID: -7793885339752791817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 475
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d188a6b7423444f0800000000000000
+      internalID: -845495546450247216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 475
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604059baba05fe090800000000000000
+      internalID: -8003089314565782522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 475
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efd49b7fef66cdd0800000000000000
+      internalID: -2466160671577546782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_IdleSword_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf42723983dc731e0800000000000000
+      internalID: -2218078648586001156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_IdleSword_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 438
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d20d333a478ea0800000000000000
+      internalID: -5870642005326768727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_IdleSword_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 438
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad15e0663b02f3120800000000000000
+      internalID: 2395669481667842522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_IdleSword_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 438
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e55a203c57d950800000000000000
+      internalID: 6473744351306834130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8157cf6a2e31173d0800000000000000
+      internalID: -3210763195153353448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21900b2ab4827c30800000000000000
+      internalID: 4355689724740931884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e05b6a0e315a00800000000000000
+      internalID: 743443627963901782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c50fb6bf7f1dd320800000000000000
+      internalID: 2584256394567812546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1498ebdf995a8ba10800000000000000
+      internalID: 1925470921506588993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_Run_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 401
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c56c0edd1a44f50800000000000000
+      internalID: 6864789706350418951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34588f902a9552a0800000000000000
+      internalID: -6749319001638677442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_1_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 364
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b21ce95164e005d0800000000000000
+      internalID: -3098225436859297100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_1_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 364
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c656d9c5225a2d110800000000000000
+      internalID: 1284270410755302764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_1_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 364
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857c6b3f7ef485cb0800000000000000
+      internalID: -4875058738983680168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_1_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 364
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f6cadcec4e3ecc0800000000000000
+      internalID: -3682848493393907945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea5012bcf34d33b0800000000000000
+      internalID: -5531190014742865171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef20f8954582d9690800000000000000
+      internalID: -7593869053931879682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74b25b1e3c4b7090800000000000000
+      internalID: -8035745280482429826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd26178f3048cc60800000000000000
+      internalID: 7838585793031843261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31805081531aa9c0800000000000000
+      internalID: -3915295685279186625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_2_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 327
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2871f032a31db8c00800000000000000
+      internalID: 904046197844416386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4531ab2cefcffbdc0800000000000000
+      internalID: -3620897404263722156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f295c0c6d8dadd0800000000000000
+      internalID: -2473165125153378405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687b9e7d00041acb0800000000000000
+      internalID: -4854528550962088058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c581022ba518a0800000000000000
+      internalID: -6334969138283952125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cd3a9adbb29fe00800000000000000
+      internalID: 1078941679326846080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_GroundAttack_3_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 290
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd47f4320a6a2d40800000000000000
+      internalID: 5560373247653400005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69693fcd6ad9d7900800000000000000
+      internalID: 683876058427266710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 253
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2f5f1a9d46369c0800000000000000
+      internalID: -3935190763503750437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 253
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb13b1a6ed8f300800000000000000
+      internalID: 286223123642170790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 253
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab001043a2ef37af0800000000000000
+      internalID: -399696484691279686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirRoll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a1ea35b753b810800000000000000
+      internalID: 1779862713630042611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirRoll_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500132debf9cb6990800000000000000
+      internalID: -7391592279546064891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirRoll_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cff62f6314cabc0800000000000000
+      internalID: -3770567083764482934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirRoll_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68280056e80a41f0800000000000000
+      internalID: -1060024977014118291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Fall_0
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaee9d724e22c8b0800000000000000
+      internalID: -5133489762138658072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Fall_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 216
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184fac1d838e3830800000000000000
+      internalID: 4052821356774901778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268853cd255203b20800000000000000
+      internalID: 3112028380325054562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_1_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231547e9e0307fe20800000000000000
+      internalID: 3384177006315065650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_1_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1548c04d83b66170800000000000000
+      internalID: 8171415993168971034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_1_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2691e25781811a140800000000000000
+      internalID: 4729087577039968610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_2_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df03ffdc1a7917640800000000000000
+      internalID: 5076004976224841981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_2_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566830f3d63f09160800000000000000
+      internalID: 7030386668859524709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_2_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 179
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed8f122e7e45ac60800000000000000
+      internalID: 7828749830898814447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_AirAttack_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d4531fa3c6f3770800000000000000
+      internalID: 8592705614456900921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f02374389e687840800000000000000
+      internalID: 5222045367930134774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec11fc57b71433f90800000000000000
+      internalID: -6975159399353478706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8493e6dcd465ac6e0800000000000000
+      internalID: -1816544607531550392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245f418be25abb40800000000000000
+      internalID: 5456765069953029161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 142
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf0d50a476440f30800000000000000
+      internalID: 4540831791016906678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_WallSlide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedf20d92e230e2e0800000000000000
+      internalID: -2098621477476434453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_WallSlide_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a37ebcb14981ba0800000000000000
+      internalID: -6117977246676862388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eaeef6324f1a340800000000000000
+      internalID: 4873444704830533215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 68
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b3b88c3df630250800000000000000
+      internalID: 5909690091433573157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 68
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa534db6323bfd3c0800000000000000
+      internalID: -4332547351792831057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Sheath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5bb18c70d5c1fe0800000000000000
+      internalID: -1216995511293463061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Sheath_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 31
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57bbd42caa0d06b0800000000000000
+      internalID: -5328591049640396961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Sheath_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d90af11d836e90800000000000000
+      internalID: -7033623084673672889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_Player_Sheath_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 31
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19839c14b4db329c0800000000000000
+      internalID: -3953107916977260399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TEX_Player_SpriteSheet_Run_3: 2584256394567812546
+      TEX_Player_AirAttack_1_1: 3384177006315065650
+      TEX_Player_WallSlide_1: -6117977246676862388
+      TEX_Player_Sheath_2: -7033623084673672889
+      TEX_Player_GroundAttack_2_3: 7838585793031843261
+      TEX_Player_Fall_1: 4052821356774901778
+      TEX_Player_Hurt_2: -4332547351792831057
+      TEX_Player_SpriteSheet_51: -1816544607531550392
+      TEX_Player_GroundAttack_1_1: -3098225436859297100
+      TEX_Player_SpriteSheet_Run_1: 4355689724740931884
+      TEX_Player_AirAttack_1_0: 3112028380325054562
+      TEX_Player_GroundAttack_1_3: -4875058738983680168
+      TEX_Player_GroundAttack_3_4: 1078941679326846080
+      TEX_Player_SpriteSheet_Run_4: 1925470921506588993
+      TEX_Player_SpriteSheet_Run_5: 6864789706350418951
+      TEX_Player_AirRoll_0: 1779862713630042611
+      TEX_Player_SpriteSheet_IdleSword_1: -5870642005326768727
+      TEX_Player_GroundAttack_2_0: -5531190014742865171
+      TEX_Player_GroundAttack_3_0: -3620897404263722156
+      TEX_Player_AirAttack_2_2: 7828749830898814447
+      TEX_Player_SpriteSheet_IdleSword_0: -2218078648586001156
+      TEX_Player_GroundAttack_3_2: -4854528550962088058
+      TEX_Player_SpriteSheet_50: -6975159399353478706
+      TEX_Player_AirRoll_1: -7391592279546064891
+      TEX_Player_GroundAttack_2_4: -3915295685279186625
+      TEX_Player_GroundAttack_2_2: -8035745280482429826
+      TEX_Player_SpriteSheet_Idle_3: -2466160671577546782
+      TEX_Player_GroundAttack_3_3: -6334969138283952125
+      TEX_Player_Sheath_3: -3953107916977260399
+      TEX_Player_SpriteSheet_IdleSword_3: 6473744351306834130
+      TEX_Player_Sheath_0: -1216995511293463061
+      TEX_Player_Jump_3: -399696484691279686
+      TEX_Player_SpriteSheet_Run_2: 743443627963901782
+      TEX_Player_Jump_2: 286223123642170790
+      TEX_Player_SpriteSheet_Idle_1: -845495546450247216
+      TEX_Player_GroundAttack_3_5: 5560373247653400005
+      TEX_Player_Jump_1: -3935190763503750437
+      TEX_Player_SpriteSheet_49: 5222045367930134774
+      TEX_Player_AirAttack_1_2: 8171415993168971034
+      TEX_Player_AirAttack_3_0: 8592705614456900921
+      TEX_Player_WallSlide_0: -2098621477476434453
+      TEX_Player_AirAttack_2_0: 5076004976224841981
+      TEX_Player_Jump_0: 683876058427266710
+      TEX_Player_SpriteSheet_Idle_2: -8003089314565782522
+      TEX_Player_Fall_0: -5133489762138658072
+      TEX_Player_GroundAttack_2_1: -7593869053931879682
+      TEX_Player_SpriteSheet_IdleSword_2: 2395669481667842522
+      TEX_Player_Hurt_1: 5909690091433573157
+      TEX_Player_AirRoll_2: -3770567083764482934
+      TEX_Player_GroundAttack_2_5: 904046197844416386
+      TEX_Player_SpriteSheet_Idle_0: -7793885339752791817
+      TEX_Player_AirRoll_3: -1060024977014118291
+      TEX_Player_GroundAttack_1_4: -3682848493393907945
+      TEX_Player_SpriteSheet_53: 4540831791016906678
+      TEX_Player_GroundAttack_1_2: 1284270410755302764
+      TEX_Player_GroundAttack_3_1: -2473165125153378405
+      TEX_Player_SpriteSheet_52: 5456765069953029161
+      TEX_Player_AirAttack_2_1: 7030386668859524709
+      TEX_Player_AirAttack_1_3: 4729087577039968610
+      TEX_Player_SpriteSheet_Run_0: -3210763195153353448
+      TEX_Player_Hurt_0: 4873444704830533215
+      TEX_Player_Sheath_1: -5328591049640396961
+      TEX_Player_GroundAttack_1_0: -6749319001638677442
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
