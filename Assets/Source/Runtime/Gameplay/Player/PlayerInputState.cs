@@ -14,6 +14,7 @@ namespace Coco
 
         public void OnMove(InputAction.CallbackContext ctx)
         {
+            Debug.Log("TEST");
             var input = ctx.ReadValue<Vector2>();
             HorizontalMovement = input.x;
             VerticalInput = input.y;
