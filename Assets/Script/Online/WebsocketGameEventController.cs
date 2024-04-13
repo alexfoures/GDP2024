@@ -28,7 +28,9 @@ namespace GDP2024
         {
             switch (message)
             {
-                case "0": m_GameEventPublisher.Publish(GameEvent.TEST); break;
+                case "0": m_GameEventPublisher.Publish(GameEvent.ONE); break;
+                case "1": m_GameEventPublisher.Publish(GameEvent.TWO); break;
+                case "2": m_GameEventPublisher.Publish(GameEvent.KEEP); break;
             }
         }
     }

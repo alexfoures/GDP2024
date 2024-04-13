@@ -65,7 +65,6 @@ namespace GDP2024
                     x += "-";
                 }
             }
-            Debug.Log(x);
 
             var values = new Dictionary<string, string>
               {
@@ -74,7 +73,6 @@ namespace GDP2024
             var content = new FormUrlEncodedContent(values);
 
             var response = await client.PostAsync(postAddress, content);
-            Debug.Log(response);
         }
 
         public void Tick()

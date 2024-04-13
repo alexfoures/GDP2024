@@ -13,7 +13,7 @@ namespace GDP2024
             Drill
         }
 
-        [SerializeField] PowerUp powerUp;
+        [SerializeField] public PowerUp powerUp;
 
         private PowerUp _currentPower;
         private bool _isDoubleJump;
