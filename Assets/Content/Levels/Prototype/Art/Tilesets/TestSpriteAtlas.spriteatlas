@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TestSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b4fc675480cc794458f26dbf49864809: 658612887
+    - b4fc675480cc794458f26dbf49864809: 2015879104
+    - b4fc675480cc794458f26dbf49864809: 2060205770
+    - b4fc675480cc794458f26dbf49864809: -1537652260
+    - b4fc675480cc794458f26dbf49864809: -1619635624
+    - b4fc675480cc794458f26dbf49864809: 883231162
+    - b4fc675480cc794458f26dbf49864809: 2145909423
+    - b4fc675480cc794458f26dbf49864809: 1352913004
+    - b4fc675480cc794458f26dbf49864809: -666781167
+    - b4fc675480cc794458f26dbf49864809: -2068899776
+    - b4fc675480cc794458f26dbf49864809: -1786164946
+    - b4fc675480cc794458f26dbf49864809: -2072610546
+    - b4fc675480cc794458f26dbf49864809: -624060194
+    - b4fc675480cc794458f26dbf49864809: 1825704982
+    - b4fc675480cc794458f26dbf49864809: -917389729
+    - b4fc675480cc794458f26dbf49864809: -1684584313
+    - b4fc675480cc794458f26dbf49864809: 404410859
+    - b4fc675480cc794458f26dbf49864809: 179463585
+    - b4fc675480cc794458f26dbf49864809: -845235845
+    - b4fc675480cc794458f26dbf49864809: -956233864
+    - b4fc675480cc794458f26dbf49864809: 1000300177
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 658612887, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 2015879104, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 2060205770, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -1537652260, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -1619635624, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 883231162, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 2145909423, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 1352913004, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -666781167, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -2068899776, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -1786164946, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -2072610546, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -624060194, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 1825704982, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -917389729, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -1684584313, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 404410859, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 179463585, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -845235845, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: -956233864, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  - {fileID: 1000300177, guid: b4fc675480cc794458f26dbf49864809, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - TILESET_Prototype2_20
+  - TILESET_Prototype2_9
+  - TILESET_Prototype2_8
+  - TILESET_Prototype2_1
+  - TILESET_Prototype2_0
+  - TILESET_Prototype2_3
+  - TILESET_Prototype2_2
+  - TILESET_Prototype2_5
+  - TILESET_Prototype2_4
+  - TILESET_Prototype2_7
+  - TILESET_Prototype2_6
+  - TILESET_Prototype2_18
+  - TILESET_Prototype2_19
+  - TILESET_Prototype2_10
+  - TILESET_Prototype2_11
+  - TILESET_Prototype2_12
+  - TILESET_Prototype2_13
+  - TILESET_Prototype2_14
+  - TILESET_Prototype2_15
+  - TILESET_Prototype2_16
+  - TILESET_Prototype2_17
+  m_RenderDataMap: {}
+  m_Tag: TestSpriteAtlas
+  m_IsVariant: 0
