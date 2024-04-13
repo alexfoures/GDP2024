@@ -1,3 +1,4 @@
+using GDP2024;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,6 +38,7 @@ namespace Coco
         public float MinimumVerticalVelocity = -20.0f;
         public float MaximumVerticalVelocity = 20.0f;
         public float GroundStickingVelocity = 1.0f;
+        public int compteur = 0;
 
         public bool CanMove = true;
         public bool IsKinematic = false;
@@ -44,6 +46,7 @@ namespace Coco
 
         private CharacterController2D _characterController2D = null;
         private PlayerInputState _input = null;
+        private PowerUpManagement _powerManagement = null;
         private Animator _animator = null;
         private SpriteRenderer _spriteRenderer = null;
 
@@ -63,6 +66,7 @@ namespace Coco
             _input = GetComponent<PlayerInputState>();
             _animator = GetComponent<Animator>();
             _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+            _powerManagement = GetComponent<PowerUpManagement>();
         }
 
         private void FixedUpdate()
@@ -232,23 +236,45 @@ namespace Coco
             bool isGroundedTolerant = _collisionState.IsGrounded.GetValueWithTolerance(JumpLateTolerance);
             bool jumpInputStrict = _input.WasJumpPressedThisFrame.Value;
             bool jumpInputTolerant = _input.WasJumpPressedThisFrame.GetValueWithTolerance(JumpEarlyTolerance);
+            bool doubleJumpActivate = _powerManagement.IsDoubleJump;
 
             bool isAgainstWall = _collisionState.IsAgainstWall.Value;
 
             // Regular Jump
-            if (!_isJumping.Value && (isGroundedStrict && jumpInputTolerant) || (isGroundedTolerant && jumpInputStrict))
+            if ((isGroundedStrict && jumpInputTolerant) || (isGroundedTolerant && jumpInputStrict))
             {
-                _isJumping.Value = true;
+                if (!_isJumping.Value)
+                    _isJumping.Value = true;
+            }
+
+            if (doubleJumpActivate)
+            {
+                if (isGroundedStrict || isGroundedTolerant)
+                {
+                    compteur = 0;
+                }
+
+                if (jumpInputTolerant || jumpInputStrict)
+                {
+                    compteur++;
+                }
+
+                if (compteur == 2 && !isAgainstWall)
+                {
+                    _isJumping.Value = false;
+                    _isJumping.Value = true;
+                }
             }
 
             // Wall Jump
             if (CanWallJump)
             {
-                if (isAgainstWall && jumpInputStrict && !isGroundedStrict)
+                if (isAgainstWall && jumpInputStrict && !isGroundedStrict && compteur != 2)
                 {
                     var direction = Mathf.Sign(CharacterController.WallNormal.x);
                     velocity.x = direction * WallHorizontalForce;
                     _isJumping.Value = true;
+                    compteur = 1;
                 }
             }
 
