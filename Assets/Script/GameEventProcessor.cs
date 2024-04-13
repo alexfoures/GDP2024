@@ -87,6 +87,7 @@ namespace GDP2024
             keep = 0;
             values = m_PowerUpCanvas.nextStep();
 #if SECRET_VERSION
+            Debug.Log(values);
             m_InteractionService.Send(values);
 #endif
             StartCoroutine(Timer());
