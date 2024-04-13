@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameJaam_Cailloux_Frame5_0: -8039407029876791037
+      GameJaam_Cailloux_Frame5_1: -3099933954504360613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,7 +9,8 @@ public class OnDestroy : MonoBehaviour
 {
     [SerializeField] Sprite[] sprites;
     private float _lifetime = 1f;
-    private SpriteRenderer spriteR;      
+    private SpriteRenderer spriteR;
+    private PowerUpManagement _powerManagement = null;
 
     // Start is called before the first frame update
     void Start()
@@ -19,20 +20,26 @@ public class OnDestroy : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        _lifetime -= (Time.deltaTime/4);
-        if (_lifetime < 0f)
-        { 
-            _lifetime = 0f; 
-        }
-        var index = (int)Math.Floor(_lifetime * sprites.Length);
-        Debug.Log(index);
-        if (_lifetime <= 0)
+        _powerManagement = collision.gameObject.GetComponent<PowerUpManagement>();
+        if (_powerManagement.IsDrill)
         {
-            Destroy(gameObject);
-        }
-        if (gameObject)
-        {
-            spriteR.sprite = sprites[index];
-        }
+            _lifetime -= (Time.deltaTime / 4);
+            if (_lifetime < 0f)
+            {
+                _lifetime = 0f;
+            }
+            var index = (int)Math.Floor(_lifetime * sprites.Length);
+            Debug.Log(index);
+            if (_lifetime <= 0)
+            {
+                Destroy(gameObject);
+            }
+            if (gameObject)
+            {
+                spriteR.sprite = sprites[index];
+                Destroy(GetComponent<PolygonCollider2D>());
+                gameObject.AddComponent<PolygonCollider2D>();
+            }
+        } 
     }
 }
