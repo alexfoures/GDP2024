@@ -4,18 +4,12 @@ using NativeWebSocket;
 using System;
 using UnityEngine;
 using VContainer.Unity;
-using UnityEngine.Networking;
-using System.Net.Http;
-using System.Collections.Generic;
-using UnityEditor.PackageManager;
 
 namespace GDP2024
 {
     public class SpectatorInteractionService : IStartable, ITickable, IDisposable
     {
         private const string kAddress = "wss://gdp2024-instance.multiplayertournamentonline.fr";
-        private const string postAddress = "https://gdp2024-instance.multiplayertournamentonline.fr/publish";
-        private static readonly HttpClient client = new HttpClient();
 
         private WebSocket m_Websocket;
         public bool IsConnected { get; private set; } = false;
