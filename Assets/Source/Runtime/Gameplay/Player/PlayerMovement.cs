@@ -44,6 +44,14 @@ namespace Coco
         public bool IsKinematic = false;
         public bool CanJump = false;
 
+
+[Header("Sound")]
+        [SerializeField] AudioSource audioSource;
+        [SerializeField] AudioSource footstepAudioSource;
+        [SerializeField] AudioClip footstepClip;
+        [SerializeField] AudioClip jumpClip;
+        [SerializeField] AudioClip airjetClip;
+
         private CharacterController2D _characterController2D = null;
         private PlayerInputState _input = null;
         private PowerUpManagement _powerManagement = null;
@@ -204,6 +212,12 @@ namespace Coco
             {
                 velocity.x = Mathf.MoveTowards(velocity.x, 0.0f, HorizontalAcceleration * Time.fixedDeltaTime);
             }
+
+            if(!footstepAudioSource.isPlaying && isGrounded && Math.Abs(velocity.x) > 5f ){
+                        float stepPitch = UnityEngine.Random.Range(0.9f, 1.1f);
+                        footstepAudioSource.pitch = stepPitch;
+                        footstepAudioSource.PlayOneShot(footstepClip);
+            }
         }
 
         private void HandleWallMovement(ref Vector2 velocity)
@@ -243,8 +257,11 @@ namespace Coco
             // Regular Jump
             if ((isGroundedStrict && jumpInputTolerant) || (isGroundedTolerant && jumpInputStrict))
             {
-                if (!_isJumping.Value)
+                if (!_isJumping.Value){
                     _isJumping.Value = true;
+                    audioSource.PlayOneShot(jumpClip);
+                    footstepAudioSource.Stop();
+                }
             }
 
             if (doubleJumpActivate)
@@ -257,6 +274,7 @@ namespace Coco
                 if (jumpInputTolerant || jumpInputStrict)
                 {
                     compteur++;
+                    audioSource.PlayOneShot(airjetClip);
                 }
 
                 if (compteur == 2 && !isAgainstWall)
