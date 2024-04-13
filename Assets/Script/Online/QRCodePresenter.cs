@@ -24,7 +24,6 @@ namespace GDP2024
         {
             m_InteractionService.OnMessage += OnMessage;
             m_EnterInputRef.action.performed += ChangeScene;
-
         }
 
         private void ChangeScene(InputAction.CallbackContext context)
@@ -42,18 +41,10 @@ namespace GDP2024
         {
             switch (message)
             {
-                /*
-                case "emoji-0": m_LightbulbEmojiParticleSystem?.Emit(1); m_InteractionService.Send(new string[] { UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString() }); break;
-                case "emoji-1": m_HeartEmojiParticleSystem?.Emit(1); m_InteractionService.Send(new string[] { UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString() }); break;
-                case "emoji-2": m_GhostEmojiParticleSystem?.Emit(1); m_InteractionService.Send(new string[] { UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString() }); break;
-                case "emoji-3": m_WindowEmojiParticleSystem?.Emit(1); m_InteractionService.Send(new string[] { UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString() }); break;
-                */
-                
-                case "emoji-0": m_LightbulbEmojiParticleSystem?.Emit(1); break;
-                case "emoji-1": m_HeartEmojiParticleSystem?.Emit(1); break;
-                case "emoji-2": m_GhostEmojiParticleSystem?.Emit(1); break;
-                case "emoji-3": m_WindowEmojiParticleSystem?.Emit(1); break;
-                
+                case "0": m_LightbulbEmojiParticleSystem?.Emit(1); break;
+                case "1": m_HeartEmojiParticleSystem?.Emit(1); break;
+                case "2": m_GhostEmojiParticleSystem?.Emit(1); break;
+                case "3": m_WindowEmojiParticleSystem?.Emit(1); break;
             }
         }
     }

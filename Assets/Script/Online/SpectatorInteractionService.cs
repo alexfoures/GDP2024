@@ -4,18 +4,12 @@ using NativeWebSocket;
 using System;
 using UnityEngine;
 using VContainer.Unity;
-using UnityEngine.Networking;
-using System.Net.Http;
-using System.Collections.Generic;
-using UnityEditor.PackageManager;
 
 namespace GDP2024
 {
     public class SpectatorInteractionService : IStartable, ITickable, IDisposable
     {
         private const string kAddress = "wss://gdp2024-instance.multiplayertournamentonline.fr";
-        private const string postAddress = "https://gdp2024-instance.multiplayertournamentonline.fr/publish";
-        private static readonly HttpClient client = new HttpClient();
 
         private WebSocket m_Websocket;
         public bool IsConnected { get; private set; } = false;
@@ -52,29 +46,6 @@ namespace GDP2024
 
             // Waiting for messages
             await m_Websocket.Connect();
-        }
-
-        public async void Send(string[] messages)
-        {
-            string x = "unity-";
-            for(int i = 0; i < messages.Length; i++)
-            {
-                x += messages[i];
-                if(i < messages.Length - 1)
-                {
-                    x += "-";
-                }
-            }
-            Debug.Log(x);
-
-            var values = new Dictionary<string, string>
-              {
-                  { "message", x },
-              };
-            var content = new FormUrlEncodedContent(values);
-
-            var response = await client.PostAsync(postAddress, content);
-            Debug.Log(response);
         }
 
         public void Tick()

@@ -13,9 +13,6 @@ namespace GDP2024
     public class GameEventProcessor : MonoBehaviour
     {
         [Inject] private ISubscriber<GameEvent> m_GameEventSubscriber;
-#if SECRET_VERSION
-        [Inject] SpectatorInteractionService m_InteractionService;
-#endif
         private IDisposable m_Subscription;
 
         private bool m_IsEnded;
@@ -45,13 +42,6 @@ namespace GDP2024
         private void OnDisable()
         {
             m_Subscription.Dispose();
-        }
-
-        private void SendPowerUps()
-        {
-#if SECRET_VERSION
-            m_InteractionService.Send(new string[] { UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString(), UnityEngine.Random.Range(1, 5).ToString() });
-#endif
         }
 
     }
