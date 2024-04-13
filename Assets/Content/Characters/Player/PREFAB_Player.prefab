@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3804210624805417503}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7165695900546549757}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1879483294161655438
 SpriteRenderer:
@@ -49,6 +49,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -72,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -7793885339752791817, guid: 19ff59e2e8cdf5b4abbd9ee5bf37523b, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: f114eb5eb0f4efe4ab48611715301326, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,13 +95,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7165695900546549757}
-  - component: {fileID: 3308934812398140421}
   - component: {fileID: 4874603192630084960}
   - component: {fileID: 1566449730111351068}
   - component: {fileID: 3543002936976349884}
   - component: {fileID: 1914097748881257333}
   - component: {fileID: 2278058711956984690}
   - component: {fileID: 165944951}
+  - component: {fileID: 4273482081013084498}
+  - component: {fileID: 6842915654145968608}
   m_Layer: 0
   m_Name: PREFAB_Player
   m_TagString: Untagged
@@ -114,31 +117,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6050532934846605980}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3166343247976706023}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &3308934812398140421
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6050532934846605980}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.53125}
-  m_Size: {x: 0.75, y: 1.0625}
-  m_Direction: 0
 --- !u!50 &4874603192630084960
 Rigidbody2D:
   serializedVersion: 4
@@ -147,7 +134,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6050532934846605980}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -156,6 +143,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -175,6 +168,7 @@ MonoBehaviour:
   _minMoveDistance: 0.001
   _skinWidth: 0.01
   _slopeAngleLimit: 30
+  _ceilingAngleLimit: 5
   Velocity: {x: 0, y: 0}
 --- !u!114 &3543002936976349884
 MonoBehaviour:
@@ -188,7 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d67c085118366409235c6a609ec95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Movement: {x: 0, y: 0}
+  HorizontalMovement: 0
+  VerticalInput: 0
 --- !u!114 &1914097748881257333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,17 +197,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 8
-  JumpHeight: 5
-  JumpDuration: 0.7
   HorizontalAcceleration: 20
   Gravity: 20
   AttackCooldown: 0.5
-  WallJumpForce: 10
-  WallJumpDamp: 10
+  CanDash: 1
+  CanWallJump: 1
+  JumpHeight: 5
+  JumpDuration: 0.7
+  WallHorizontalForce: 10
   JumpEarlyTolerance: 0.2
   JumpLateTolerance: 0.2
+  DashDuration: 0.5
+  DashDistance: 5
+  DashCooldown: 1.5
+  DashEarlyTolerance: 0.1
   MinimumVerticalVelocity: -20
   MaximumVerticalVelocity: 20
+  GroundStickingVelocity: 1
+  compteur: 0
   CanMove: 1
   IsKinematic: 0
   CanJump: 0
@@ -256,7 +258,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: e383db08-b526-4a92-a9ff-51f0711255f3
-    m_ActionName: Overworld/Move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+    m_ActionName: 'Overworld/Move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3543002936976349884}
@@ -272,7 +274,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: 3bceb65d-4ace-4ae6-b1af-6772f3aabc9e
-    m_ActionName: Overworld/Jump[/Keyboard/space]
+    m_ActionName: 'Overworld/Jump[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3543002936976349884}
@@ -288,15 +290,31 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: 1c35fbed-052e-4cbb-bf0d-ab7ba2f81519
-    m_ActionName: Overworld/Attack[/Keyboard/c]
+    m_ActionName: 'Overworld/Attack[/Keyboard/c]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3543002936976349884}
+        m_TargetAssemblyTypeName: Coco.PlayerInputState, Assembly-CSharp
+        m_MethodName: OnDash
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 837ba41e-1e0e-4d35-a688-0ab6e32008af
+    m_ActionName: 'Overworld/Dash[/Keyboard/x]'
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Overworld
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!95 &165944951
 Animator:
-  serializedVersion: 4
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -310,7 +328,68 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4273482081013084498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050532934846605980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f5d620007703047a648018dc3f2b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 0
+--- !u!61 &6842915654145968608
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050532934846605980}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.6951084, y: -0.096814156}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 32.11992, y: 33.142563}
+  m_EdgeRadius: 0

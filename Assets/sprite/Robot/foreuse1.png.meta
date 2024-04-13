@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 044183e66ca90c14e88a711b2ceee14f
+guid: 51157a12b8e32cc488f3fb9218fa890e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8069832376590593192
-    second: Sans titre 5_0
+      213: -436625482065374574
+    second: foreuse1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sans titre 5_0
+      name: foreuse1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1451
-        height: 730
+        x: 441
+        y: 599
+        width: 1374
+        height: 802
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8531f549532320090800000000000000
-      internalID: -8069832376590593192
+      spriteID: 2921c99ff6bc0f9f0800000000000000
+      internalID: -436625482065374574
       vertices: []
       indices: 
       edges: []

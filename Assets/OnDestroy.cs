@@ -9,7 +9,7 @@ public class OnDestroy : MonoBehaviour
 {
     [SerializeField] Sprite[] sprites;
     private float _lifetime = 1f;
-    private SpriteRenderer spriteR;
+    private SpriteRenderer spriteR;      
 
     // Start is called before the first frame update
     void Start()
