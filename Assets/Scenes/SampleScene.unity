@@ -566,17 +566,35 @@ Transform:
   - {fileID: 2058426587}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1343458223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6050532934846605980, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
+  m_PrefabInstance: {fileID: 1709170475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1343458227 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3543002936976349884, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
   m_PrefabInstance: {fileID: 1709170475}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1343458223}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46d67c085118366409235c6a609ec95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1343458232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343458223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f5d620007703047a648018dc3f2b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 0
 --- !u!1 &1430841568
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914097748881257333, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
       propertyPath: Gravity
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1914097748881257333, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
       propertyPath: m_Enabled
@@ -809,7 +827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3166343247976706023, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3166343247976706023, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
       propertyPath: m_LocalPosition.y
@@ -870,7 +888,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6050532934846605980, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1343458232}
   m_SourcePrefab: {fileID: 100100000, guid: 40badcd97ff58704b91ab5c4f2dcc0de, type: 3}
 --- !u!1 &1909878661
 GameObject:
