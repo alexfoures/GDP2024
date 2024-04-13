@@ -7,18 +7,21 @@ namespace GDP2024
 {
     public class PowerUpManagement : MonoBehaviour
     {
-        public enum PowerUp { 
+        public enum PowerUp {
+            None,
             Resize,
             DoubleJump,
+            WallJump,
             Drill
         }
 
         [SerializeField] PowerUp powerUp;
-
         private PowerUp _currentPower;
         private bool _isDoubleJump;
+        private bool _isWallJump;
 
         public bool IsDoubleJump => _isDoubleJump;
+        public bool IsWallJump => _isWallJump;
         // Start is called before the first frame update
         void Start()
         {
@@ -28,7 +31,10 @@ namespace GDP2024
         void SetPowerUp(PowerUp up)
         {
             SetUpSwitch(_currentPower, false);
-            SetUpSwitch(up, true);
+            if (up != PowerUp.None)
+            {
+                SetUpSwitch(up, true);
+            }
         }
 
         private void SetUpSwitch(PowerUp up, bool enable)
@@ -40,6 +46,9 @@ namespace GDP2024
                     break;
                 case PowerUp.DoubleJump:
                     EnableDoubleJump(enable);
+                    break;
+                case PowerUp.WallJump:
+                    EnableWallJump(enable);
                     break;
                 case PowerUp.Drill:
                     break;
@@ -57,6 +66,11 @@ namespace GDP2024
         private void EnableDoubleJump(bool enable)
         {          
             _isDoubleJump = enable;
+        }
+
+        private void EnableWallJump(bool enable)
+        {
+            _isWallJump = enable;
         }
 
         // Update is called once per frame
