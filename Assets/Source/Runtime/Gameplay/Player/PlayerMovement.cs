@@ -44,6 +44,14 @@ namespace Coco
         public bool IsKinematic = false;
         public bool CanJump = false;
 
+
+[Header("Sound")]
+        [SerializeField] AudioSource audioSource;
+        [SerializeField] AudioSource footstepAudioSource;
+        [SerializeField] AudioClip footstepClip;
+        [SerializeField] AudioClip jumpClip;
+        [SerializeField] AudioClip airjetClip;
+
         private CharacterController2D _characterController2D = null;
         private PlayerInputState _input = null;
         private PowerUpManagement _powerManagement = null;
@@ -60,6 +68,7 @@ namespace Coco
 
         public CharacterController2D CharacterController => _characterController2D;
 
+        private SoundManager _soundManager;
         private void Start()
         {
             _characterController2D = GetComponent<CharacterController2D>();
@@ -67,6 +76,7 @@ namespace Coco
             _animator = GetComponent<Animator>();
             _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             _powerManagement = GetComponent<PowerUpManagement>();
+            _soundManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>();
         }
 
         private void FixedUpdate()
@@ -204,6 +214,12 @@ namespace Coco
             {
                 velocity.x = Mathf.MoveTowards(velocity.x, 0.0f, HorizontalAcceleration * Time.fixedDeltaTime);
             }
+
+            if(!footstepAudioSource.isPlaying && isGrounded && Math.Abs(velocity.x) > 5f ){
+                        float stepPitch = UnityEngine.Random.Range(0.9f, 1.1f);
+                        footstepAudioSource.pitch = stepPitch;
+                        footstepAudioSource.PlayOneShot(footstepClip);
+            }
         }
 
         private void HandleWallMovement(ref Vector2 velocity)
@@ -244,8 +260,11 @@ namespace Coco
             // Regular Jump
             if ((isGroundedStrict && jumpInputTolerant) || (isGroundedTolerant && jumpInputStrict))
             {
-                if (!_isJumping.Value)
+                if (!_isJumping.Value){
                     _isJumping.Value = true;
+                    audioSource.PlayOneShot(jumpClip);
+                    footstepAudioSource.Stop();
+                }
             }
 
             if (doubleJumpActivate)
@@ -258,6 +277,8 @@ namespace Coco
                 if (jumpInputTolerant || jumpInputStrict)
                 {
                     compteur++;
+                    audioSource.PlayOneShot(airjetClip);
+                    _soundManager.PlayVoice(SoundManager.Voices.Fly);
                 }
 
                 if (compteur == 2 && !isAgainstWall)
