@@ -277,12 +277,12 @@ namespace Coco
                 if (jumpInputTolerant || jumpInputStrict)
                 {
                     compteur++;
-                    audioSource.PlayOneShot(airjetClip);
-                    _soundManager.PlayVoice(SoundManager.Voices.Fly);
                 }
 
                 if (compteur == 2 && !isAgainstWall)
                 {
+                    audioSource.PlayOneShot(airjetClip);
+                    _soundManager.PlayVoice(SoundManager.Voices.Fly);
                     _isJumping.Value = false;
                     _isJumping.Value = true;
                 }
@@ -297,6 +297,7 @@ namespace Coco
                     velocity.x = direction * WallHorizontalForce;
                     _isJumping.Value = true;
                     compteur = 1;
+                    audioSource.PlayOneShot(jumpClip);
                 }
             }
 

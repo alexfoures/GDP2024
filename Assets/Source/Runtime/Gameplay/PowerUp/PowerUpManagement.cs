@@ -26,9 +26,13 @@ namespace GDP2024
         public bool IsWallJump => _isWallJump;
         public bool IsDrill => _isDrill;
         // Start is called before the first frame update
+
+        private SoundManager _soundManager;
+
         void Start()
         {
             _baseLocalScale = GetComponent<Transform>().localScale;
+            _soundManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>();
             SetPowerUp(powerUp);
         }
 
@@ -60,7 +64,13 @@ namespace GDP2024
                 default:
                     break;
             }
+            if(UnityEngine.Random.Range(0, 1)==0)
+                GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>().PlayVoice(SoundManager.Voices.Upscale);
+            else
+                GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>().PlayVoice(SoundManager.Voices.Downscale);
+
         }
+
 
         private void Resize(bool resize)
         {          
@@ -81,7 +91,7 @@ namespace GDP2024
 
         private void EnableDrill(bool enable)
         {
-            _isDrill = enable;
+            _isDrill = enable;            
         }
 
         // Update is called once per frame
