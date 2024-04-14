@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour
 
     }
 
-    [SerializeField] public bool IsPortal { get; set;} = true;
+    [SerializeField] public bool IsOwnRecord { get; set;} = true;
 
     [SerializeField] AudioClip[] ambiantSounds;
     [SerializeField] AudioSource audioSource;
@@ -56,6 +56,10 @@ public class SoundManager : MonoBehaviour
             PlayVoice(Voices.Idle,0);
             lastInputTime = Time.time;
         }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            IsOwnRecord = !IsOwnRecord;
+        }
     }
 
     void FixedUpdate()
@@ -82,61 +86,64 @@ public class SoundManager : MonoBehaviour
     public void PlayVoice(Voices voice, int probablilityMax = 4){
         if(!voiceSource.isPlaying && Random.Range(0, probablilityMax) == 0){
             AudioClip clip = null;
-                        Debug.Log("TEST");
-
             switch (voice)
             {
                 case Voices.Spawn :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceSpawn[Random.Range(0, voiceSpawn.Length)];
                     else
                         clip = voiceSpawnPortal[Random.Range(0, voiceSpawnPortal.Length)];
                 break;
                 case Voices.Death :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceDeath[Random.Range(0, voiceDeath.Length)];
                     else
                         clip = voiceDeathPortal[Random.Range(0, voiceDeathPortal.Length)];
                 break;
                 case Voices.Win :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceWin[Random.Range(0, voiceWin.Length)];
                     else
                         clip = voiceWinPortal[Random.Range(0, voiceWinPortal.Length)];
                 break;
                 case Voices.Idle :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceIdle[Random.Range(0, voiceIdle.Length)];
                     else
                         clip = voiceIdlePortal[Random.Range(0, voiceIdlePortal.Length)];
                 break;
                 case Voices.Fly :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceFly[Random.Range(0, voiceFly.Length)];
                     else
                         clip = voiceFlyPortal[Random.Range(0, voiceFlyPortal.Length)];
                 break;
                 case Voices.Forage :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceForage[Random.Range(0, voiceForage.Length)];
                     else
                         clip = voiceForagePortal[Random.Range(0, voiceForagePortal.Length)];
                 break;
                 case Voices.Upscale :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceUpscale[Random.Range(0, voiceUpscale.Length)];
                     else
                         clip = voiceUpscalePortal[Random.Range(0, voiceUpscalePortal.Length)];
                 break;
                 case Voices.Downscale :
-                    if(IsPortal)
+                    if(IsOwnRecord)
                         clip = voiceDownscale[Random.Range(0, voiceDownscale.Length)];
                     else
                         clip = voiceDownscalePortal[Random.Range(0, voiceDownscalePortal.Length)];
                 break;
             }
-            if(clip != null)
-                audioSource.PlayOneShot(clip);
+            if(clip != null){
+                if(IsOwnRecord)
+                    voiceSource.volume = 1.0f;
+                else
+                    voiceSource.volume = 0.02f;
+                voiceSource.PlayOneShot(clip);
+            }
         }
     }
 }
