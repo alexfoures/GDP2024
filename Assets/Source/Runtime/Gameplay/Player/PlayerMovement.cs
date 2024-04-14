@@ -68,6 +68,7 @@ namespace Coco
 
         public CharacterController2D CharacterController => _characterController2D;
 
+        private SoundManager _soundManager;
         private void Start()
         {
             _characterController2D = GetComponent<CharacterController2D>();
@@ -75,6 +76,7 @@ namespace Coco
             _animator = GetComponent<Animator>();
             _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             _powerManagement = GetComponent<PowerUpManagement>();
+            _soundManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>();
         }
 
         private void FixedUpdate()
@@ -275,6 +277,7 @@ namespace Coco
                 {
                     compteur++;
                     audioSource.PlayOneShot(airjetClip);
+                    _soundManager.PlayVoice(SoundManager.Voices.Fly);
                 }
 
                 if (compteur == 2 && !isAgainstWall)
