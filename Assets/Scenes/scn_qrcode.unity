@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5123423905567460459, guid: ff78a8a831ac9f24f9adcf0260299b39, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5246985627047912776, guid: ff78a8a831ac9f24f9adcf0260299b39, type: 3}
       propertyPath: m_Name
       value: pfb_particle_emoji_ghost
@@ -228,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 1860665862429620, guid: 4ac2efa62b1231648ae3b5a6b80f7caa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123423905567460459, guid: 4ac2efa62b1231648ae3b5a6b80f7caa, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5246985627047912776, guid: 4ac2efa62b1231648ae3b5a6b80f7caa, type: 3}
       propertyPath: m_Name
@@ -376,6 +384,10 @@ PrefabInstance:
     - target: {fileID: 1860665862429620, guid: 00dd52949969d5547b04af33c5755773, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123423905567460459, guid: 00dd52949969d5547b04af33c5755773, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5246985627047912776, guid: 00dd52949969d5547b04af33c5755773, type: 3}
       propertyPath: m_Name
