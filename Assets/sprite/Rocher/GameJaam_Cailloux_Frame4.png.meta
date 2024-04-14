@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e60a4383d28a60544831baefa62f8a6b
+guid: fb9d7ac9372c405418ce409c9d0f9b6c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -247058054503370390
-    second: foreground_0
-  - first:
-      213: -8560154073889714485
-    second: foreground_1
+      213: 5868259299486887141
+    second: GameJaam_Cailloux_Frame4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foreground_0
+      name: GameJaam_Cailloux_Frame4_0
       rect:
         serializedVersion: 2
-        x: 2269
-        y: 971
-        width: 1571
-        height: 1189
+        x: 1279
+        y: 529
+        width: 408
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,29 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a617d662206429cf0800000000000000
-      internalID: -247058054503370390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: foreground_1
-      rect:
-        serializedVersion: 2
-        x: 1678
-        y: 276
-        width: 2162
-        height: 576
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bcec0333939343980800000000000000
-      internalID: -8560154073889714485
+      spriteID: 5ec6cc3ddbe307150800000000000000
+      internalID: 5868259299486887141
       vertices: []
       indices: 
       edges: []
@@ -168,8 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      foreground_0: -247058054503370390
-      foreground_1: -8560154073889714485
+      GameJaam_Cailloux_Frame4_0: 5868259299486887141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

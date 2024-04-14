@@ -16,16 +16,19 @@ namespace GDP2024
         }
 
         [SerializeField] public PowerUp powerUp;
-
         private PowerUp _currentPower;
         private bool _isDoubleJump;
         private bool _isWallJump;
+        private bool _isDrill;
+        private Vector3 _baseLocalScale;
 
         public bool IsDoubleJump => _isDoubleJump;
         public bool IsWallJump => _isWallJump;
+        public bool IsDrill => _isDrill;
         // Start is called before the first frame update
         void Start()
         {
+            _baseLocalScale = GetComponent<Transform>().localScale;
             SetPowerUp(powerUp);
         }
 
@@ -52,6 +55,7 @@ namespace GDP2024
                     EnableWallJump(enable);
                     break;
                 case PowerUp.Drill:
+                    EnableDrill(enable);
                     break;
                 default:
                     break;
@@ -59,8 +63,9 @@ namespace GDP2024
         }
 
         private void Resize(bool resize)
-        {
-            var vector = resize ? new Vector3(0.5f, 0.5f, 0.5f) : new Vector3(1f, 1f, 1f);
+        {          
+            var vector = resize ? new Vector3(_baseLocalScale.x/2, _baseLocalScale.y/2, _baseLocalScale.z/2) :
+                new Vector3(_baseLocalScale.x, _baseLocalScale.y, _baseLocalScale.z);
             GetComponent<Transform>().localScale = vector;
         }
 
@@ -72,6 +77,11 @@ namespace GDP2024
         private void EnableWallJump(bool enable)
         {
             _isWallJump = enable;
+        }
+
+        private void EnableDrill(bool enable)
+        {
+            _isDrill = enable;
         }
 
         // Update is called once per frame

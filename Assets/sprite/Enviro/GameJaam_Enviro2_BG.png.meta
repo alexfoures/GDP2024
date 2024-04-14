@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5b6ec2162978c2c48a6d82bf00faf3f3
+guid: c3ae858f158ef9040a4e5294ca8c8402
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6695950386315148514
-    second: BG_0
+      213: 7560863360152770588
+    second: GameJaam_Enviro2_BG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_0
+      name: GameJaam_Enviro2_BG_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13cb0ea9943313a0800000000000000
-      internalID: -6695950386315148514
+      spriteID: c181c29ba259de860800000000000000
+      internalID: 7560863360152770588
       vertices: []
       indices: 
       edges: []
@@ -144,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BG_0: -6695950386315148514
+      GameJaam_Enviro2_BG_0: 7560863360152770588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

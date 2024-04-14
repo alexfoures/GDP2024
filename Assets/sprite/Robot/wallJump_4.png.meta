@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: cb4e151da787d434aa54a326ad74fc01
+guid: ea51bc8b773c0dd4090b6bf23df1c4f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2191668444884831948
-    second: BG2_0
+      213: -478482255572979512
+    second: wallJump_4_0
+  - first:
+      213: 6850408083646914659
+    second: wallJump_4_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +99,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG2_0
+      name: wallJump_4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3840
-        height: 2160
+        x: 177
+        y: 225
+        width: 3316
+        height: 2751
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 431f43d4921a591e0800000000000000
-      internalID: -2191668444884831948
+      spriteID: 8c0be357ce61c59f0800000000000000
+      internalID: -478482255572979512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJump_4_1
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 0
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3602d386bd9811f50800000000000000
+      internalID: 6850408083646914659
       vertices: []
       indices: 
       edges: []
@@ -144,7 +155,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BG2_0: -2191668444884831948
+      wallJump_4_0: -478482255572979512
+      wallJump_4_1: 6850408083646914659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

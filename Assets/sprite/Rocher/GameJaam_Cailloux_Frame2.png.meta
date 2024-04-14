@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a51910a6aebfbae44b7a4f45bcf66fd2
+guid: f221b917d54cd0f4485470f1d1b29b69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 70364811865627504
-    second: sol_0
+      213: 4421972445627810210
+    second: GameJaam_Cailloux_Frame2_0
+  - first:
+      213: -1070008139534696238
+    second: GameJaam_Cailloux_Frame2_1
+  - first:
+      213: -7951312794200305294
+    second: GameJaam_Cailloux_Frame2_2
+  - first:
+      213: 7526413464275395798
+    second: GameJaam_Cailloux_Frame2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sol_0
+      name: GameJaam_Cailloux_Frame2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3840
-        height: 2043
+        x: 467
+        y: 1052
+        width: 41
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +136,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07b10ff6c6cf9f000800000000000000
-      internalID: 70364811865627504
+      spriteID: 2a1063cb2800e5d30800000000000000
+      internalID: 4421972445627810210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJaam_Cailloux_Frame2_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 499
+        width: 1154
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0024824419621f0800000000000000
+      internalID: -1070008139534696238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJaam_Cailloux_Frame2_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 876
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711cab342347a190800000000000000
+      internalID: -7951312794200305294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJaam_Cailloux_Frame2_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 585
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d42ada4b21337860800000000000000
+      internalID: 7526413464275395798
       vertices: []
       indices: 
       edges: []
@@ -144,7 +216,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sol_0: 70364811865627504
+      GameJaam_Cailloux_Frame2_0: 4421972445627810210
+      GameJaam_Cailloux_Frame2_1: -1070008139534696238
+      GameJaam_Cailloux_Frame2_2: -7951312794200305294
+      GameJaam_Cailloux_Frame2_3: 7526413464275395798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

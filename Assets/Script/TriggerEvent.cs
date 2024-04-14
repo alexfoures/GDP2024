@@ -17,6 +17,7 @@ public class TriggerEvent : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("OK");
+        gameEventProcessor.SendPowerUps();
+        Destroy(gameObject);
     }
 }

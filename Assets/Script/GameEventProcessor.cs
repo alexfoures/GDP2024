@@ -62,10 +62,7 @@ namespace GDP2024
                             break;
                     }
                 }
-
             });
-
-            SendPowerUps();
         }
 
         private void Update()
@@ -79,7 +76,7 @@ namespace GDP2024
             m_Subscription.Dispose();
         }
 
-        private void SendPowerUps()
+        public void SendPowerUps()
         {
             inSelection = true;
             one = 0;
@@ -103,6 +100,7 @@ namespace GDP2024
                 timer.fillAmount = counter / choiceTime;
             }
             inSelection = false;
+            Debug.Log(one + " " + two + " " + keep);
             if(one > two && one > keep)
             {
                 ApplyChange(0);
@@ -128,7 +126,11 @@ namespace GDP2024
 
         void ApplyChange(int id)
         {
-            powerUpManagement.powerUp = mapping[id.ToString()];
+            if(id != 2)
+            {
+                Debug.Log($"Id is: {id} / {mapping[values[id].ToString()]}");
+                powerUpManagement.powerUp = mapping[values[id].ToString()];
+            }
         }
 
     }

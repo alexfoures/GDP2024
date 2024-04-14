@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 628351ec9bdd53b4186cceb73ec5343d
+guid: b990989d9c7ed4f47bd221b996cdfe7a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6830844198198370188
-    second: foregorubd_0
+      213: -2995635882901633577
+    second: Robot_Jetpack1_0
   - first:
-      213: -5387742974921874586
-    second: foregorubd_1
+      213: -4563984314679728073
+    second: Robot_Jetpack1_1
   - first:
-      213: 5487103450702400370
-    second: foregorubd_2
+      213: 4180547908380583892
+    second: Robot_Jetpack1_2
   - first:
-      213: -2638741236920471050
-    second: foregorubd_3
+      213: -6882138636994564202
+    second: Robot_Jetpack1_3
+  - first:
+      213: -2656655213871078211
+    second: Robot_Jetpack1_4
+  - first:
+      213: 3555239141263464420
+    second: Robot_Jetpack1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,30 +111,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foregorubd_0
+      name: Robot_Jetpack1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1065
-        width: 3535
-        height: 1095
+        x: 654
+        y: 415
+        width: 2145
+        height: 3424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4702952a467f331a0800000000000000
-      internalID: -6830844198198370188
+      spriteID: 7d50c3b390d5d66d0800000000000000
+      internalID: -2995635882901633577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foregorubd_1
+      name: Robot_Jetpack1_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1005
-        width: 451
-        height: 333
+        x: 729
+        y: 409
+        width: 41
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 663ecae4f44ea35b0800000000000000
-      internalID: -5387742974921874586
+      spriteID: 7386f03627879a0c0800000000000000
+      internalID: -4563984314679728073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foregorubd_2
+      name: Robot_Jetpack1_2
       rect:
         serializedVersion: 2
-        x: 542
-        y: 226
-        width: 3298
-        height: 1512
+        x: 868
+        y: 398
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27bcfe8348b162c40800000000000000
-      internalID: 5487103450702400370
+      spriteID: 4d7e6855c2a440a30800000000000000
+      internalID: 4180547908380583892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foregorubd_3
+      name: Robot_Jetpack1_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 283
-        width: 317
-        height: 557
+        x: 2380
+        y: 402
+        width: 44
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,8 +192,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f13e2f53de416bd0800000000000000
-      internalID: -2638741236920471050
+      spriteID: 69fa2fe6f5bbd70a0800000000000000
+      internalID: -6882138636994564202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Jetpack1_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 322
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db46686982aa12bd0800000000000000
+      internalID: -2656655213871078211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Jetpack1_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 301
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7d29a992fb65130800000000000000
+      internalID: 3555239141263464420
       vertices: []
       indices: 
       edges: []
@@ -216,10 +251,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      foregorubd_0: -6830844198198370188
-      foregorubd_1: -5387742974921874586
-      foregorubd_2: 5487103450702400370
-      foregorubd_3: -2638741236920471050
+      Robot_Jetpack1_0: -2995635882901633577
+      Robot_Jetpack1_1: -4563984314679728073
+      Robot_Jetpack1_2: 4180547908380583892
+      Robot_Jetpack1_3: -6882138636994564202
+      Robot_Jetpack1_4: -2656655213871078211
+      Robot_Jetpack1_5: 3555239141263464420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
