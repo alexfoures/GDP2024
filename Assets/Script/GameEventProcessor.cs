@@ -36,7 +36,7 @@ namespace GDP2024
             {"0", PowerUpManagement.PowerUp.Drill },
             {"1", PowerUpManagement.PowerUp.Resize },
             {"2", PowerUpManagement.PowerUp.DoubleJump },
-            {"3", PowerUpManagement.PowerUp.Resize },
+            {"3", PowerUpManagement.PowerUp.WallJump },
             {"4", PowerUpManagement.PowerUp.DoubleJump },
         };
 
