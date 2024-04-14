@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chat 2_0: 191241543689367488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
