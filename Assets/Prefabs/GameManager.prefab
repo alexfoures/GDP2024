@@ -163,42 +163,62 @@ MonoBehaviour:
   audioSource: {fileID: 5108140580023337945}
   voiceSource: {fileID: 2892823861053045591}
   voiceSpawn:
+  - {fileID: 8300000, guid: 5156d2b8b77b266338590a2dac79ab81, type: 3}
+  - {fileID: 8300000, guid: 50c5f58fa15f5abd0ab6b7d0249a3b1c, type: 3}
+  - {fileID: 8300000, guid: 50a7e03cb5a47f73ea30501e5ff50adb, type: 3}
+  voiceDeath:
+  - {fileID: 8300000, guid: d468716906f325c2abaf10faa9a5a164, type: 3}
+  - {fileID: 8300000, guid: af9951c67220101d796e57179acaf25e, type: 3}
+  - {fileID: 8300000, guid: fb32535240d0cfcf29d03622357a1bab, type: 3}
+  voiceWin:
+  - {fileID: 8300000, guid: 27f1c683e7f5782259d2f0293996609a, type: 3}
+  - {fileID: 8300000, guid: e4469c1f6a9ada9e3865122052de1f89, type: 3}
+  - {fileID: 8300000, guid: 16100a22a0c74c6af97bd5ea4bff2d9b, type: 3}
+  voiceIdle:
+  - {fileID: 8300000, guid: bcd25e19a8daee3e0a15399103f12563, type: 3}
+  - {fileID: 8300000, guid: 447e16e8ff985781081cceb9256e1ed3, type: 3}
+  - {fileID: 8300000, guid: d6d7b3cb46125b803b108a5f2aab947c, type: 3}
+  voiceFly:
+  - {fileID: 8300000, guid: b17cb031b5eec6f8fa5a54850565d2df, type: 3}
+  - {fileID: 8300000, guid: 1f56350b69b55a850b7eabd218ba2bab, type: 3}
+  voiceForage:
+  - {fileID: 8300000, guid: 16345163a8cfd9a269d6ea01f6bd2172, type: 3}
+  - {fileID: 8300000, guid: 7aa908bb1f85c3e7dbc499d128521eca, type: 3}
+  voiceUpscale:
+  - {fileID: 8300000, guid: 614cecd0662f6e087ad8339430c23d6f, type: 3}
+  - {fileID: 8300000, guid: bb8a64d87be048a35b6eb0fe3ac77d08, type: 3}
+  voiceDownscale:
+  - {fileID: 8300000, guid: 3376ef0a94cc1e10f94f5f4b944d3ee3, type: 3}
+  - {fileID: 8300000, guid: 95be77d6a31ebf266b2b3b9755062d95, type: 3}
+  voiceSpawnPortal:
   - {fileID: 8300000, guid: 8201d34552a1c92a3a8c999e4bab8360, type: 3}
   - {fileID: 8300000, guid: b06583abb5e3738feab2acfd9b7c4ec1, type: 3}
   - {fileID: 8300000, guid: 02244146f1d60952897ab8bafd468619, type: 3}
-  voiceDeath:
+  voiceDeathPortal:
   - {fileID: 8300000, guid: f9d4faef594801ab5b8601b649fc5e11, type: 3}
   - {fileID: 8300000, guid: 28bb2a59f81b8abaf853113469bc7bc7, type: 3}
   - {fileID: 8300000, guid: 921194cf6e3e38214b510f8d70e99da1, type: 3}
-  voiceWin:
+  voiceWinPortal:
   - {fileID: 8300000, guid: aabe5c149e3151420badf67781fc04dc, type: 3}
   - {fileID: 8300000, guid: 1a5f6b3a56030bf29b7d1062ee4e2fde, type: 3}
   - {fileID: 8300000, guid: c0f1df9fe4b2067548680ff7008cf550, type: 3}
-  voiceIdle:
+  voiceIdlePortal:
   - {fileID: 8300000, guid: 1c873f565b091cc60987bc8111aa4e55, type: 3}
   - {fileID: 8300000, guid: c15ef2ba4fc8b0bcdb065488687e188f, type: 3}
   - {fileID: 8300000, guid: f8af25c2ddfb9abbd906a4815c9000fe, type: 3}
-  voiceFly:
+  voiceFlyPortal:
   - {fileID: 8300000, guid: 114abad173ccf8e96ad6b8de45055aad, type: 3}
   - {fileID: 8300000, guid: d3cee6a9335606a7485d43cc62b13ec3, type: 3}
-  voiceForage:
+  voiceForagePortal:
   - {fileID: 8300000, guid: 3871101dd69b138aa95c7c2cfccc9d6e, type: 3}
   - {fileID: 8300000, guid: 8926dbf33de426a1093b576e5a4a2eec, type: 3}
   - {fileID: 8300000, guid: 346bf9a1517738216aba5295b6be9328, type: 3}
-  voiceUpscale:
+  voiceUpscalePortal:
   - {fileID: 8300000, guid: 0913ba75fe655f1feac90b70b1e4c25d, type: 3}
   - {fileID: 8300000, guid: f92c50bde35bc108fbc1ac30b86d124b, type: 3}
-  voiceDownscale:
+  voiceDownscalePortal:
   - {fileID: 8300000, guid: c240daeacce5c33aaa0ab3bfc2034cd2, type: 3}
   - {fileID: 8300000, guid: cddde8bef54350aa58def1c8af9e6508, type: 3}
-  voiceSpawnPortal: []
-  voiceDeathPortal: []
-  voiceWinPortal: []
-  voiceIdlePortal: []
-  voiceFlyPortal: []
-  voiceForagePortal: []
-  voiceUpscalePortal: []
-  voiceDownscalePortal: []
 --- !u!82 &2892823861053045591
 AudioSource:
   m_ObjectHideFlags: 0
@@ -208,7 +228,7 @@ AudioSource:
   m_GameObject: {fileID: 4406592177476059590}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2656993405021156008, guid: c7a8385718033a57daa8c57dcc7cff56, type: 2}
+  OutputAudioMixerGroup: {fileID: 2133511347233912015, guid: c7a8385718033a57daa8c57dcc7cff56, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
