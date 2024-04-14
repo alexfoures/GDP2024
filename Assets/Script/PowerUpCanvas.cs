@@ -27,6 +27,9 @@ public class PowerUpCanvas : MonoBehaviour
 
     public void stop()
     {
+        UpdateText(0, 0);
+        UpdateText(0, 1);
+        UpdateText(0, 2);
         display.SetActive(false);
     }
 
