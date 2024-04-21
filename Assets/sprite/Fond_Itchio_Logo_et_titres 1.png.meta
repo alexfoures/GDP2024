@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: d5bb30bca69158a4880c5af0247140f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 205321538837661363
+    second: Fond_Itchio_Logo_et_titres 1_0
+  - first:
+      213: -6029487399565926849
+    second: Fond_Itchio_Logo_et_titres 1_1
+  - first:
+      213: -6559567260490428707
+    second: Fond_Itchio_Logo_et_titres 1_2
+  - first:
+      213: -7260253136542577653
+    second: Fond_Itchio_Logo_et_titres 1_3
+  - first:
+      213: -404289428383391537
+    second: Fond_Itchio_Logo_et_titres 1_4
+  - first:
+      213: 1318202498048923420
+    second: Fond_Itchio_Logo_et_titres 1_5
+  - first:
+      213: 3567478934326598654
+    second: Fond_Itchio_Logo_et_titres 1_6
+  - first:
+      213: -2357416225326135405
+    second: Fond_Itchio_Logo_et_titres 1_7
+  - first:
+      213: 636746273826073683
+    second: Fond_Itchio_Logo_et_titres 1_8
+  - first:
+      213: 4785505752153354953
+    second: Fond_Itchio_Logo_et_titres 1_9
+  - first:
+      213: 8613321215919662149
+    second: Fond_Itchio_Logo_et_titres 1_10
+  - first:
+      213: 3109433944329546728
+    second: Fond_Itchio_Logo_et_titres 1_11
+  - first:
+      213: 626632942973269249
+    second: Fond_Itchio_Logo_et_titres 1_12
+  - first:
+      213: -3770812325055173768
+    second: Fond_Itchio_Logo_et_titres 1_13
+  - first:
+      213: -5855936756710430999
+    second: Fond_Itchio_Logo_et_titres 1_14
+  - first:
+      213: -6347002535814019043
+    second: Fond_Itchio_Logo_et_titres 1_15
+  - first:
+      213: 101322844164727484
+    second: Fond_Itchio_Logo_et_titres 1_16
+  - first:
+      213: -5040106691965930660
+    second: Fond_Itchio_Logo_et_titres 1_17
+  - first:
+      213: -8393285525812900779
+    second: Fond_Itchio_Logo_et_titres 1_18
+  - first:
+      213: 9173613611707770290
+    second: Fond_Itchio_Logo_et_titres 1_19
+  - first:
+      213: -6193992353980665560
+    second: Fond_Itchio_Logo_et_titres 1_20
+  - first:
+      213: -8267036941570962720
+    second: Fond_Itchio_Logo_et_titres 1_21
+  - first:
+      213: -9117147095140460316
+    second: Fond_Itchio_Logo_et_titres 1_22
+  - first:
+      213: -746345644656260484
+    second: Fond_Itchio_Logo_et_titres 1_23
+  - first:
+      213: 9212625678329852459
+    second: Fond_Itchio_Logo_et_titres 1_24
+  - first:
+      213: -4413086502218567479
+    second: Fond_Itchio_Logo_et_titres 1_25
+  - first:
+      213: -2070865089534768946
+    second: Fond_Itchio_Logo_et_titres 1_26
+  - first:
+      213: 653981051432480061
+    second: Fond_Itchio_Logo_et_titres 1_27
+  - first:
+      213: -3478019125051434697
+    second: Fond_Itchio_Logo_et_titres 1_28
+  - first:
+      213: 1836182764200347585
+    second: Fond_Itchio_Logo_et_titres 1_29
+  - first:
+      213: 3357017410054630129
+    second: Fond_Itchio_Logo_et_titres 1_30
+  - first:
+      213: 5589962757199229121
+    second: Fond_Itchio_Logo_et_titres 1_31
+  - first:
+      213: -5136261090260153338
+    second: Fond_Itchio_Logo_et_titres 1_32
+  - first:
+      213: -6099712888115255788
+    second: Fond_Itchio_Logo_et_titres 1_33
+  - first:
+      213: 4977103739117812647
+    second: Fond_Itchio_Logo_et_titres 1_34
+  - first:
+      213: 3398083003504243594
+    second: Fond_Itchio_Logo_et_titres 1_35
+  - first:
+      213: 6874647427160841677
+    second: Fond_Itchio_Logo_et_titres 1_36
+  - first:
+      213: -7811962264349843817
+    second: Fond_Itchio_Logo_et_titres 1_37
+  - first:
+      213: -126663734229721555
+    second: Fond_Itchio_Logo_et_titres 1_38
+  - first:
+      213: -2367155830769996251
+    second: Fond_Itchio_Logo_et_titres 1_39
+  - first:
+      213: 8613635131239823647
+    second: Fond_Itchio_Logo_et_titres 1_40
+  - first:
+      213: 4122821834458296054
+    second: Fond_Itchio_Logo_et_titres 1_41
+  - first:
+      213: -1332694616673499544
+    second: Fond_Itchio_Logo_et_titres 1_42
+  - first:
+      213: 2084474386775374419
+    second: Fond_Itchio_Logo_et_titres 1_43
+  - first:
+      213: -613724412094261252
+    second: Fond_Itchio_Logo_et_titres 1_44
+  - first:
+      213: 1604680493177549036
+    second: Fond_Itchio_Logo_et_titres 1_45
+  - first:
+      213: 4479993804013618487
+    second: Fond_Itchio_Logo_et_titres 1_46
+  - first:
+      213: -8506380155868180537
+    second: Fond_Itchio_Logo_et_titres 1_47
+  - first:
+      213: -5631409999289313759
+    second: Fond_Itchio_Logo_et_titres 1_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_0
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 458
+        width: 542
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6c72b0ad279d200800000000000000
+      internalID: 205321538837661363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_1
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 910
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3edd2bd725f25ca0800000000000000
+      internalID: -6029487399565926849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_2
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 787
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde8f26a45cb7f4a0800000000000000
+      internalID: -6559567260490428707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_3
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 671
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cc6f02d366e3b90800000000000000
+      internalID: -7260253136542577653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc023ca28eca36af0800000000000000
+      internalID: -404289428383391537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c171d3610323b4210800000000000000
+      internalID: 1318202498048923420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbd930803b328130800000000000000
+      internalID: 3567478934326598654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 45
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39781b5ee66c84fd0800000000000000
+      internalID: -2357416225326135405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ce477cc5d26d800800000000000000
+      internalID: 636746273826073683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 45
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c270bb7028896240800000000000000
+      internalID: 4785505752153354953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5442a33b20aa88770800000000000000
+      internalID: 8613321215919662149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebed48a2bde62b20800000000000000
+      internalID: 3109433944329546728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105ba72775f32b800800000000000000
+      internalID: 626632942973269249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87beb624b226babc0800000000000000
+      internalID: -3770812325055173768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_14
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 45
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e62f1dbb888bbea0800000000000000
+      internalID: -5855936756710430999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 45
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d184d4052daeae7a0800000000000000
+      internalID: -6347002535814019043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_16
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb222160798f76100800000000000000
+      internalID: 101322844164727484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 45
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c533d43daa1fd0ab0800000000000000
+      internalID: -5040106691965930660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_18
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c8e77a84f058b80800000000000000
+      internalID: -8393285525812900779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_19
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5a788d9f83f4f70800000000000000
+      internalID: 9173613611707770290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8213f7f65c48a0aa0800000000000000
+      internalID: -6193992353980665560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_21
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea81a8c3b5954d80800000000000000
+      internalID: -8267036941570962720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_22
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 45
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81b2d8503697180800000000000000
+      internalID: -9117147095140460316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_23
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8a9a279274a5f0800000000000000
+      internalID: -746345644656260484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_24
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b223e7d6e32d9df70800000000000000
+      internalID: 9212625678329852459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 44
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0f030353191c2c0800000000000000
+      internalID: -4413086502218567479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_26
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8c5884c2fc243e0800000000000000
+      internalID: -2070865089534768946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_27
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 44
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d28742d48631900800000000000000
+      internalID: 653981051432480061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_28
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 45
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7395b4978089bbfc0800000000000000
+      internalID: -3478019125051434697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_29
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c74bdade7e6b7910800000000000000
+      internalID: 1836182764200347585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_30
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faab175c85869e20800000000000000
+      internalID: 3357017410054630129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_31
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f582c289839d40800000000000000
+      internalID: 5589962757199229121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_32
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c026160c558b8b0800000000000000
+      internalID: -5136261090260153338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_33
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416a4082277795ba0800000000000000
+      internalID: -6099712888115255788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_34
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb26c1b79321540800000000000000
+      internalID: 4977103739117812647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_35
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83b925ec7a682f20800000000000000
+      internalID: 3398083003504243594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_36
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd99fb5967a76f50800000000000000
+      internalID: 6874647427160841677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_37
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79edbaac5b5569390800000000000000
+      internalID: -7811962264349843817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_38
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e105b31000e3ef0800000000000000
+      internalID: -126663734229721555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_39
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ea5fa405c262fd0800000000000000
+      internalID: -2367155830769996251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_40
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19ff5ec387c98770800000000000000
+      internalID: 8613635131239823647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_41
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 44
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe6c136d94373930800000000000000
+      internalID: 4122821834458296054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_42
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 45
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866c91b9e41518de0800000000000000
+      internalID: -1332694616673499544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_43
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 45
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a7527296a8dec10800000000000000
+      internalID: 2084474386775374419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_44
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7d22b16ec9b77f0800000000000000
+      internalID: -613724412094261252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_45
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0b8d51868f44610800000000000000
+      internalID: 1604680493177549036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_46
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735ce24f0a22c2e30800000000000000
+      internalID: 4479993804013618487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_47
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 45
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf8b05215443f980800000000000000
+      internalID: -8506380155868180537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fond_Itchio_Logo_et_titres 1_48
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 45
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12617cf217639d1b0800000000000000
+      internalID: -5631409999289313759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fond_Itchio_Logo_et_titres 1_0: 205321538837661363
+      Fond_Itchio_Logo_et_titres 1_1: -6029487399565926849
+      Fond_Itchio_Logo_et_titres 1_10: 8613321215919662149
+      Fond_Itchio_Logo_et_titres 1_11: 3109433944329546728
+      Fond_Itchio_Logo_et_titres 1_12: 626632942973269249
+      Fond_Itchio_Logo_et_titres 1_13: -3770812325055173768
+      Fond_Itchio_Logo_et_titres 1_14: -5855936756710430999
+      Fond_Itchio_Logo_et_titres 1_15: -6347002535814019043
+      Fond_Itchio_Logo_et_titres 1_16: 101322844164727484
+      Fond_Itchio_Logo_et_titres 1_17: -5040106691965930660
+      Fond_Itchio_Logo_et_titres 1_18: -8393285525812900779
+      Fond_Itchio_Logo_et_titres 1_19: 9173613611707770290
+      Fond_Itchio_Logo_et_titres 1_2: -6559567260490428707
+      Fond_Itchio_Logo_et_titres 1_20: -6193992353980665560
+      Fond_Itchio_Logo_et_titres 1_21: -8267036941570962720
+      Fond_Itchio_Logo_et_titres 1_22: -9117147095140460316
+      Fond_Itchio_Logo_et_titres 1_23: -746345644656260484
+      Fond_Itchio_Logo_et_titres 1_24: 9212625678329852459
+      Fond_Itchio_Logo_et_titres 1_25: -4413086502218567479
+      Fond_Itchio_Logo_et_titres 1_26: -2070865089534768946
+      Fond_Itchio_Logo_et_titres 1_27: 653981051432480061
+      Fond_Itchio_Logo_et_titres 1_28: -3478019125051434697
+      Fond_Itchio_Logo_et_titres 1_29: 1836182764200347585
+      Fond_Itchio_Logo_et_titres 1_3: -7260253136542577653
+      Fond_Itchio_Logo_et_titres 1_30: 3357017410054630129
+      Fond_Itchio_Logo_et_titres 1_31: 5589962757199229121
+      Fond_Itchio_Logo_et_titres 1_32: -5136261090260153338
+      Fond_Itchio_Logo_et_titres 1_33: -6099712888115255788
+      Fond_Itchio_Logo_et_titres 1_34: 4977103739117812647
+      Fond_Itchio_Logo_et_titres 1_35: 3398083003504243594
+      Fond_Itchio_Logo_et_titres 1_36: 6874647427160841677
+      Fond_Itchio_Logo_et_titres 1_37: -7811962264349843817
+      Fond_Itchio_Logo_et_titres 1_38: -126663734229721555
+      Fond_Itchio_Logo_et_titres 1_39: -2367155830769996251
+      Fond_Itchio_Logo_et_titres 1_4: -404289428383391537
+      Fond_Itchio_Logo_et_titres 1_40: 8613635131239823647
+      Fond_Itchio_Logo_et_titres 1_41: 4122821834458296054
+      Fond_Itchio_Logo_et_titres 1_42: -1332694616673499544
+      Fond_Itchio_Logo_et_titres 1_43: 2084474386775374419
+      Fond_Itchio_Logo_et_titres 1_44: -613724412094261252
+      Fond_Itchio_Logo_et_titres 1_45: 1604680493177549036
+      Fond_Itchio_Logo_et_titres 1_46: 4479993804013618487
+      Fond_Itchio_Logo_et_titres 1_47: -8506380155868180537
+      Fond_Itchio_Logo_et_titres 1_48: -5631409999289313759
+      Fond_Itchio_Logo_et_titres 1_5: 1318202498048923420
+      Fond_Itchio_Logo_et_titres 1_6: 3567478934326598654
+      Fond_Itchio_Logo_et_titres 1_7: -2357416225326135405
+      Fond_Itchio_Logo_et_titres 1_8: 636746273826073683
+      Fond_Itchio_Logo_et_titres 1_9: 4785505752153354953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

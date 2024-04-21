@@ -16,6 +16,7 @@ namespace GDP2024
         }
 
         [SerializeField] public PowerUp powerUp;
+        [SerializeField] public GameObject drill;
         private PowerUp _currentPower;
         private bool _isDoubleJump;
         private bool _isWallJump;
@@ -91,7 +92,9 @@ namespace GDP2024
 
         private void EnableDrill(bool enable)
         {
-            _isDrill = enable;            
+            _isDrill = enable;
+            if (_isDrill) drill.SetActive(true);
+            else drill.SetActive(false);
         }
 
         // Update is called once per frame

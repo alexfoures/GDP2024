@@ -14,7 +14,7 @@ public class PowerUpCanvas : MonoBehaviour
 
     public string[] nextStep()
     {
-        GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>().PlayVoice(SoundManager.Voices.Spawn);
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>().PlayVoice(SoundManager.Voices.Spawn, 0);
 
         images[0].sprite = sprites[step].sprite1;
         images[1].sprite = sprites[step].sprite2;
